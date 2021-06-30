@@ -36,3 +36,8 @@ function call_git_pull_every_subfolder {
         Write-Host "Getting latest for $_ " -ForegroundColor DarkGreen | git -C $_.FullName pull --all --recurse-submodules --verbose 
     }
 }
+
+function gpg_eterocell {
+    git config --global user.signinkey "balabala"
+    git config --global commit.gpgsign true
+}

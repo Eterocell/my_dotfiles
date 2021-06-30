@@ -138,5 +138,4 @@ ex ()
   fi
 }
 
-
 source /home/eterocell/.config/broot/launcher/bash/br
