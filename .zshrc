@@ -114,9 +114,6 @@ prompt pure
 # zsh-completions
 autoload -U compinit && compinit
 
-# broot
-source /home/eterocell/.config/broot/launcher/bash/br
-
 # aliases
 alias ll="ls -lh"
 alias lll="ls -lah"
