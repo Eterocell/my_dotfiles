@@ -137,5 +137,3 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-
-source /home/eterocell/.config/broot/launcher/bash/br
