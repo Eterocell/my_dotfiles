@@ -106,16 +106,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Pure
-fpath+=$HOME/.zsh/pure
-autoload -U promptinit; promptinit
-prompt pure
+# starship
+eval "$(starship init zsh)"
 
 # zsh-completions
 autoload -U compinit && compinit
-
-# broot
-source /home/eterocell/.config/broot/launcher/bash/br
 
 # aliases
 alias ll="ls -lh"
